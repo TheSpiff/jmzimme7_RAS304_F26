@@ -1,6 +1,6 @@
 site_name: RAS 304 Joseph Zimmerman Data Sheet
-site_url: https://ras-embedded-systems.github.io/RAS304DataSheetTemplate/
-repo_url: https://github.com/ras-embedded-systems/RAS304DataSheetTemplate
+site_url: https://ras-embedded-systems.github.io/RAS304JosephZimmermanDataSheet/
+repo_url: https://github.com/ras-embedded-systems/RAS304JosephZimmermanDataSheet
 edit_uri: edit/main/docs/
 theme:
   name: material
