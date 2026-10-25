@@ -7,13 +7,13 @@ title: Component Selection Example
 ### Style 2
 
 
-**External Clock Module**
+**Infrared (IR) Receiver**
 
-1. TSSP4P38 IR RECEIVER
+1. TSSP4P38 IR Receiver
 
     ![](TSSP4P38.jpg)
 
-    * $1/each
+    * $1.99/each
     * [link to product](https://www.newark.com/vishay/tssp4p38/ir-receiver-45m-0-12mw-m2-side/dp/48W3619)
 
     | Pros                                      | Cons                                                             |
@@ -22,18 +22,33 @@ title: Component Selection Example
     | Compatible with PSoC                      | Needs special PCB layout.                                        |
     | Meets surface mount constraint of project |
 
-1. CTX936TR-ND surface mount oscillator
+2. TSSP4056 Infrared Receiver
 
-    ![](image3.png)
+    ![](TSSP4056.jpg)
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * $1.36/each
+    * [Link to product](https://www.newark.com/vishay/tssp4056/ir-receiver-25m-0-4mw-m2-side/dp/02AC3955)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
     | Outputs a square wave                                             | More expensive      |
     | Stable over operating temperature                                 | Slow shipping speed |
     | Direct interface with PSoC (no external circuitry required) range |
+
+
+3. TSSP94038 IR Receiver
+
+    ![](TSSP94038.jpg)
+
+    * $1.08/each
+    * [Link to product](https://www.newark.com/vishay/tssp94038/ir-receiver-38khz-12m-side-view/dp/58AJ2797)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Outputs a square wave                                             | More expensive      |
+    | Stable over operating temperature                                 | Slow shipping speed |
+    | Direct interface with PSoC (no external circuitry required) range |
+
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
