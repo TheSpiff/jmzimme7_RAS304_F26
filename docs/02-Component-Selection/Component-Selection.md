@@ -1,10 +1,55 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-## Examples
 
-### Style 2
+**Infrared (IR) Emitter**
+
+1. VSLY5940 Infrared Emitter
+
+    ![](VSLY5940.jpg)
+
+    * $1.56/each
+    * [link to product](https://www.newark.com/vishay/vsly5940/infrared-emitter-940nm-t-1-3-4/dp/72Y6513)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+2. TSAL6400 Infrared Emitter
+
+    ![](TSAL6400.jpg)
+
+    * $0.52/each
+    * [Link to product](https://www.newark.com/vishay/tsal6400/ir-emitter-940nm-t-1-3-4-through/dp/95B4859)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Outputs a square wave                                             | More expensive      |
+    | Stable over operating temperature                                 | Slow shipping speed |
+    | Direct interface with PSoC (no external circuitry required) range |
+
+
+3. TSAL6100 Infrared Emitter
+
+    ![](TSAL6100.jpg)
+
+    * $0.52/each
+    * [Link to product](https://www.newark.com/vishay/tsal6100/ir-emitter-940nm-10-t-1-3-4-5mm/dp/78Y9604)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Outputs a square wave                                             | More expensive      |
+    | Stable over operating temperature                                 | Slow shipping speed |
+    | Direct interface with PSoC (no external circuitry required) range |
+
+
+**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+
+**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+
 
 
 **Infrared (IR) Receiver**
