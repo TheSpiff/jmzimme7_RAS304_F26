@@ -14,9 +14,9 @@ title: Component Selection
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | 10ns Rise/Fall Time                       | 3 Degree Angle of Half Intensity                                 |
+    | Highest Radiant Intensity                 | Most Expensive                                                   |
+    |                                           |                                                                  |
 
 2. TSAL6400 Infrared Emitter
 
@@ -27,9 +27,9 @@ title: Component Selection
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | 25 Degree Angle of Half Intensity                                 | Lowest Radiant Intensity  |
+    | Less Expensive                                                    | Lower Max Voltage   |
+    |                                                                   |
 
 
 3. TSAL6100 Infrared Emitter
@@ -41,14 +41,14 @@ title: Component Selection
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | 10 Degree Angle of Half Intensity                                 | Lower Radiant Intensity |
+    | Less Expensive                                                    | Lower Max Voltage    |
+    |                                                                   |
 
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: TSAL6400 Infrared Emitter
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** Given the intended short-range application, the greater Angle of Half Intensity provided by this option is more important than the lower radiant intensity. It is also one of the two cheaper options, with only a very small increase in the Rise/Fall times as a result.
 
 
 
