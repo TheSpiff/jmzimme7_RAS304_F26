@@ -63,9 +63,9 @@ title: Component Selection
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Most Expensive                                                   |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Greatest Receiving Distance               | Most Expensive                                                   |
+    | Lowest Minimum Irradiance                 |                                         |
+    |                                           |
 
 2. TSSP4056 Infrared Receiver
 
@@ -76,9 +76,9 @@ title: Component Selection
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | Highest Maximum Irradiance                                        | More expensive      |
+    |                                                                   | Shorter Receiving Distance    |
+    |                                                                   | Highest Supply Current   |
 
 
 3. TSSP94038 IR Receiver
@@ -90,9 +90,9 @@ title: Component Selection
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Least Expensive                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | Least Expensive                                                   | Highest Maximum Irradiance    |
+    | Lowest Supply Voltage                                             | Shorter Receiving Distance    |
+    |                                                                   |
 
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
