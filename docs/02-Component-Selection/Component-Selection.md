@@ -63,7 +63,7 @@ title: Component Selection
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
+    | Inexpensive                               | Most Expensive                                                   |
     | Compatible with PSoC                      | Needs special PCB layout.                                        |
     | Meets surface mount constraint of project |
 
@@ -90,7 +90,7 @@ title: Component Selection
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
+    | Least Expensive                                             | More expensive      |
     | Stable over operating temperature                                 | Slow shipping speed |
     | Direct interface with PSoC (no external circuitry required) range |
 
