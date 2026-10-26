@@ -16,7 +16,6 @@ title: Component Selection
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | 10ns Rise/Fall Time                       | 3 Degree Angle of Half Intensity                                 |
     | Highest Radiant Intensity                 | Most Expensive                                                   |
-    |                                           |                                                                  |
 
 2. TSAL6400 Infrared Emitter
 
@@ -29,7 +28,6 @@ title: Component Selection
     | ----------------------------------------------------------------- | ------------------- |
     | 25 Degree Angle of Half Intensity                                 | Lowest Radiant Intensity  |
     | Less Expensive                                                    | Lower Max Voltage   |
-    |                                                                   |
 
 
 3. TSAL6100 Infrared Emitter
@@ -43,7 +41,6 @@ title: Component Selection
     | ----------------------------------------------------------------- | ------------------- |
     | 10 Degree Angle of Half Intensity                                 | Lower Radiant Intensity |
     | Less Expensive                                                    | Lower Max Voltage    |
-    |                                                                   |
 
 
 **Choice:** Option 2: TSAL6400 Infrared Emitter
@@ -65,7 +62,6 @@ title: Component Selection
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Greatest Receiving Distance               | Most Expensive                                                   |
     | Lowest Minimum Irradiance                 |                                         |
-    |                                           |
 
 2. TSSP4056 Infrared Receiver
 
@@ -92,9 +88,8 @@ title: Component Selection
     | ----------------------------------------------------------------- | ------------------- |
     | Least Expensive                                                   | Highest Maximum Irradiance    |
     | Lowest Supply Voltage                                             | Shorter Receiving Distance    |
-    |                                                                   |
 
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: TSSP4056 Infrared Receiver
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:**  The three receivers are very similar in overall specifications, so the deciding factor was this receiver's greater maximum irradiance. Since this sensor will be used across relatively small distances, it will be helpful to have a better high range for more reflective objects closer to the sensor.
