@@ -16,18 +16,20 @@ October, 30, 2026
 
 ## Introduction
 
-* This datasheet covers the technical information and design process of the IR distance sensor board.
+This datasheet covers the technical information and design process of the IR proximity sensor control board.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+This project will generate a haptic gripper to be mounted on a robotic system. The gripper will possess force sensors to detect the grip strength being used, motion sensors to detect any slippage, and an IR proximity sensor to detect and confirm that an object is in the claw.
+* The overall [team report](https://ras304-f26-team104.github.io/RAS304-F26-104/) can be found here.
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+* My board runs the IR proximity sensor using an IR Emitteer and an IR Receiver.
+* A general diagram of the board can be found on the [block diagram](https://thespiff.github.io/jmzimme7_RAS304_F26/01-Block-Diagram/Block-Diagram/) page.
+* Link to the complete schematic can be found [here](https://thespiff.github.io/jmzimme7_RAS304_F26/04-Schematic/schematic/).
+* Component Selection and the resons for each choice are [here](https://thespiff.github.io/jmzimme7_RAS304_F26/02-Component-Selection/Component-Selection/).
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
