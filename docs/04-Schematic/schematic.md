@@ -4,7 +4,7 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support an Infrared Emitter paired to an IR Receiver, acting as a proximity sensor. The circuit runs on one main 9V power source, fed throgh a voltage regulator to 5 Volts which the major components tie into as needed. The IR Emitter runs off the board's integrated PWM, and the IR Receiver feeds into an Analog to Digital Converter through an Op-AMp that strengthens the analog signal. The board connects to the main control hub through an eight-wire ribbon cable. 
+This schematic is design to support an Infrared Emitter paired to an IR Receiver, acting as a proximity sensor. The circuit runs on one main 9V power source, fed throgh a voltage regulator to 5 Volts which the major components tie into as needed. The IR Emitter (Vishay TSAL6400) runs off the board's integrated PWM, and the IR Receiver (Vishay TSSP4056) feeds into an Analog to Digital Converter through an Op-Amp (Microchip MCP6004) that strengthens the analog signal. The board connects to the main control hub through an eight-wire ribbon cable. 
 Also included are two LED's and a swtich for debugging, as well as additional pin connections for additonal circuits or testing purposes.
 
 
