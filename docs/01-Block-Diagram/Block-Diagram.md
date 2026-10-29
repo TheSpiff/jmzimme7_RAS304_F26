@@ -1,24 +1,12 @@
 ---
 title: Individal Block Diagram
-tags:
-- tag1
-- tag2
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+This Block Diagram serves as an intial visualization of the final requirements of the circuit. The circuit runs on one main 5V power source, which the major components tie into as needed. The IR Emitter runs off the board's integrated PWM, and the IR Receiver feeds into an Analog to Digital Converter. The board connects to the main control hub through an eight-wire ribbon cable.
+
+## Block Diagram 
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
-
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Individual Block diagram ](Joseph_Zimmerman_Board_Review.png)
