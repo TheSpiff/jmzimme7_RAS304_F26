@@ -30,7 +30,4 @@ This project will generate a haptic gripper to be mounted on a robotic system. T
 * A general diagram of the board can be found on the [block diagram](https://thespiff.github.io/jmzimme7_RAS304_F26/01-Block-Diagram/Block-Diagram/) page.
 * Link to the complete schematic can be found [here](https://thespiff.github.io/jmzimme7_RAS304_F26/04-Schematic/schematic/).
 * Component Selection and the resons for each choice are [here](https://thespiff.github.io/jmzimme7_RAS304_F26/02-Component-Selection/Component-Selection/).
-
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
+* For details on the Bill of Materials (IN PROGRESS), you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
