@@ -46,6 +46,8 @@ title: Component Selection
 **Choice:** Option 2: TSAL6400 Infrared Emitter
 
 **Rationale:** Given the intended short-range application, the greater Angle of Half Intensity provided by this option is more important than the lower radiant intensity. It is also one of the two cheaper options, with only a very small increase in the Rise/Fall times as a result.
+* The increased width of the beam will be beneficial for enableing easier reading of strangely reflective shapes, and the resulting loss of range is irrelevant in the current application
+* The Rise/Fall times of the compared Emitters are all very similar, and therefore did not contribute greatly to the decison.
 
 
 
@@ -93,3 +95,4 @@ title: Component Selection
 **Choice:** Option 2: TSSP4056 Infrared Receiver
 
 **Rationale:**  The three receivers are very similar in overall specifications, so the deciding factor was this receiver's greater maximum irradiance. Since this sensor will be used across relatively small distances, it will be helpful to have a better high range for more reflective objects closer to the sensor.
+* This sensor will be reading objects very close to the sensor, and therefore will be looking at brightly illuminated surfaces.
