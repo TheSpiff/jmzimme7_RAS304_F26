@@ -3,20 +3,16 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+This Board needs to power the IR Emitter and Receiver, and while the majority of the components are relatively low in current draw, plotting the actual values ensures that the planned power source is adequate for the intended purpose.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+![PowerBudget](PowerBudget.png){style width:"350" height:"300;"}
 
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
-
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
-From the prepare Power Budget, .....
+From the prepared Power Budget, the single 5V voltage regulator fed from external power will be adequate to supply the voltage and current the board.
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](IRPRoximityPowerBudget.pdf), and a Microsoft Excel Sheet [*here*](IRPRoximityPowerBudget.xlsx).
