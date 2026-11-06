@@ -1,28 +1,24 @@
 ---
 title: Bill of Materials
-tags:
-- tag1
-- tag2
 ---
 
 ## Overview
-written context
+The Bill of Materials featured below includes all components used in the schematic, most of which are already in stock. The two parts that need to be ordered externally are the Infrared Emitter and the Infrared Receiver. For the parts acquired off Amazon, no datasheets are available.
 
-## Bill of Materials Example (as Table)
+## Bill of Materials Example 
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
-
-| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |10 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C2, C4, C6, C7, C8, C9, C10, C11, C12, C16
-
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials Example (as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
+| **Part Name/Description** | **Unit Quantity** | **Unit Prototype Cost** | **Total Prototype Cost** | **Unit Production Cost** | **Total Production Cost** | **Manufacturer** | **Manufacturer Part #** | **Vendor Link** | **Datasheet Link** | **Supplier** | **Supplier Part #** | **# Ordered** | **Date Ordered** | **# Received** | **Surplus** | **Schematic Reference Designators** |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| Light Emitting Diode | 2 | $0.00 | $0.00 | $0.02 | $0.03 | DiCUNO | 5C-3MM 1000 L | https://a.co/d/02PNQrPl | NA | Amazon | B077J2WJRS | 0 | 0 | 0 | -2 | D2,D3 |
+| 8-Pin Ribbon Cable Connector | 1 | $0.00 | $0.00 | $0.33 | $0.33 | Antrader | WQ22538 | https://a.co/d/00UHWwHC | NA | Amazon | B0BVHMTY5S | 0 | NA | NA | -1 | H1 |
+| 8-Pin Header for Debugging | 1 | $0.00 | $0.00 | $0.16 | $0.16 | Qunqi | MK-197 | https://a.co/d/062qaYas | NA | Amazon | B07CGGSDWF | 0 | NA | NA | -1 | H3 |
+| Resistor, US symbol | 10 | $0.00 | $0.00 | $0.01 | $0.07 | LuminologyPro | LP-Resistor-01 | https://a.co/d/090a1p4s | NA | Amazon | B0F4P352BB | 0 | NA | NA | -10 | R1,R2,R3,R4,R5,R6,R7,R8,R9,R10 |
+| .1uF Ceramic Capacitor | 4 | $0.00 | $0.00 | $0.17 | $0.66 | Vishay | K104K10X7RF5UH5 | https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356879 | https://www.vishay.com/docs/45171/kseries.pdf | Digikey | BC2665CT-ND | 0 | NA | NA | -4 | C1, C2 |
+| Cartridge Fuse Holder | 2 | $0.00 | $0.00 | $0.66 | $1.32 | Keystone Electronics | 4628 | https://www.digikey.com/en/products/detail/keystone-electronics/4628/2137316 | https://www.keyelco.com/userAssets/file/K75p50.pdf | Digikey | 36-4628-ND | 0 | NA | NA | -2 | F1,F2 |
+| Op-Amp | 1 | $0.00 | $0.00 | $0.50 | $0.50 | Microchip | MCP6004-I/P | https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060 | https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf | Digikey | MCP6004-I/P-ND | 0 | NA | NA | -1 | H2 |
+| Barrel Jack Adapter | 1 | $0.00 | $0.00 | $0.63 | $0.63 | Same Sky | PJ-102AH | https://www.digikey.com/en/products/detail/cui-devices/PJ-102AH/408448 | https://www.sameskydevices.com/product/resource/pj-102ah.pdf | Digikey | CP-102AH-ND | 0 | NA | NA | -1 | J1 |
+| Voltage Regulator | 1 | $0.00 | $0.00 | $0.34 | $0.34 | TAEJIN | LM7805T | https://www.digikey.com/en/products/detail/taejin/LM7805T/22237260 | https://www.htckorea.co.kr/Datasheet/Voltage%20Regulator/LM78xx.pdf | Digikey | 5536-LM7805T-ND | 0 | NA | NA | -1 | U1 |
+| PIC18F57Q43 Curiosity Nano Board | 1 | $0.00 | $0.00 | $9.99 | $9.99 | Microchip | PIC18F57Q43 | https://www.microchip.com/en-us/development-tool/DM164150 | https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/PIC18F57Q43-Curiosity-Nano-HW-UserGuide-DS40002186B.pdf | Microchip	PIC18F57Q43 | 0 | NA | NA | -1 | CN_JZ1 |
+| Infrared Emitter | 1 | $0.522 | $0.522 | $0.27 | $0.27 | Vishay | TSAL6400 | https://www.newark.com/vishay/tsal6400/ir-emitter-940nm-t-1-3-4-through/dp/95B4859 | https://www.farnell.com/datasheets/1866445.pdf | Newark | 95B4859 | 0 | NA | NA | -1 | D1 |
+| Infrared Receiver | 1 | $1.36 | $1.36 | $0.88 | $0.88 | Vishay | TSSP4056 | https://www.newark.com/vishay/tssp4056/ir-receiver-25m-0-4mw-m2-side/dp/02AC3955 	https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0007978048/VISH-S-A0007978048-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0 | Newark | 02AC3955 | 0 | NA | NA | -1 | U2
+| Button (From RAS 304 Kit) | 1 | $0.00 | $0.00 | NA | NA | NA | NA | NA | NA | NA | NA | 0 | NA | NA | -1 | SW1 |
