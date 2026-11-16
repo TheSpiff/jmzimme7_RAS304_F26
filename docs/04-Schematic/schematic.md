@@ -8,10 +8,10 @@ This schematic is design to support an Infrared Emitter paired to an IR Receiver
 Also included are two LED's and a swtich for debugging, as well as additional pin connections for additonal circuits or testing purposes.
 
 
-![schematic](Project_Subsytem_Schematic.png){style width:"350" height:"300;"}
+![schematic](Project_Subsytem_Schematic_2.png){style width:"350" height:"300;"}
 **Figure 1:** The Schematic Itself.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Project_Subsystem.pdf), and the Zip folder of the project [*here*](Project_Subsystem.zip).
+The schematic as a PDF download is available [*here*](Project_Subsystem_2.pdf), and the Zip folder of the project [*here*](Project_Subsystem_2.zip).
